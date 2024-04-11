@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Section1 = () => {
+const Section1 = ({height}) => {
   return (
-    <div>Section1</div>
+    <div className='p-8 overflow-y-scroll' style={{height:height}}>
+        hello
+    </div>
   )
 }
 
